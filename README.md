@@ -22,8 +22,8 @@ Conduct real-name verification of Chinese National ID(中国身份证) with a Te
      You can find your appcode in [Aliyun Console](account.aliyun.com)
   5. Replace `API_TOKEN` in `guard_id_checker.py` with your Telegram bot API key
   6. Fill the Telegram ID(s) of Telegram client account(s) that is going to use this bot in `authorized` in `guard_id_checker.py`
-     This avoids unauthorized people using your bot and Aliyun Marketplace API(API calls are charged by the provider)
-     If you don't know your Telegram ID, search ```Get My ID``` in Telegram, this bot will send you the user ID
+     This avoids unauthorized people using your bot and Aliyun Marketplace API(API calls are charged by the provider).
+     If you don't know your Telegram ID, search ```Get My ID``` in Telegram, this bot will send you the user ID.
      
      ![userid](/img/useridpng.png)
      
